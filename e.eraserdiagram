@@ -1,0 +1,10 @@
+entity-relationship-diagram
+
+todos [icon: edit]{
+    id int, autoincrement
+    title string
+    status bool, 0
+    expired_at datetime, nullable
+    created_at datetime, now
+    updated_at datetime, now
+}
