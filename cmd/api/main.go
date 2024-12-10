@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/shohinsan/nestly/internal/infrastructure/server"
+	"github.com/BuildFrom/Golang-Stdlib/internal/infrastructure/server"
 )
 
 func main() {

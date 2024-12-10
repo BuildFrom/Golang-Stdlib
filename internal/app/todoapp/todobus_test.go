@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/shohinsan/nestly/internal/infrastructure/sqldb"
+	"github.com/BuildFrom/Golang-Stdlib/internal/infrastructure/sqldb"
 )
 
 // NewTestTodoRepository is used for integration-style testing with a real database.

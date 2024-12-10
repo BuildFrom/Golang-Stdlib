@@ -3,8 +3,8 @@ package todoapp
 import (
 	"net/http"
 
-	"github.com/shohinsan/nestly/internal/infrastructure/sqldb"
-	mw "github.com/shohinsan/nestly/internal/sdk/middleware"
+	"github.com/BuildFrom/Golang-Stdlib/internal/infrastructure/sqldb"
+	mw "github.com/BuildFrom/Golang-Stdlib/internal/sdk/middleware"
 )
 
 func RegisterRoutes(mux *http.ServeMux, dbService sqldb.Service) http.Handler {

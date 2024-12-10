@@ -3,10 +3,10 @@ package all
 import (
 	"net/http"
 
-	"github.com/shohinsan/nestly/internal/app/healthapp"
-	"github.com/shohinsan/nestly/internal/app/helloapp"
-	"github.com/shohinsan/nestly/internal/app/todoapp"
-	"github.com/shohinsan/nestly/internal/infrastructure/sqldb"
+	"github.com/BuildFrom/Golang-Stdlib/internal/app/healthapp"
+	"github.com/BuildFrom/Golang-Stdlib/internal/app/helloapp"
+	"github.com/BuildFrom/Golang-Stdlib/internal/app/todoapp"
+	"github.com/BuildFrom/Golang-Stdlib/internal/infrastructure/sqldb"
 )
 
 // RegisterRoutes registers all routes for the API.

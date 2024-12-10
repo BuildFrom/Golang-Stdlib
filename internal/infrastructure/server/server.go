@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/BuildFrom/Golang-Stdlib/cmd/api/build/all"
+	"github.com/BuildFrom/Golang-Stdlib/internal/infrastructure/sqldb"
 	_ "github.com/joho/godotenv/autoload"
-	"github.com/shohinsan/nestly/cmd/api/build/all"
-	"github.com/shohinsan/nestly/internal/infrastructure/sqldb"
 )
 
 type Server struct {

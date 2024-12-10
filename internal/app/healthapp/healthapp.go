@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/shohinsan/nestly/internal/infrastructure/sqldb"
+	"github.com/BuildFrom/Golang-Stdlib/internal/infrastructure/sqldb"
 )
 
 type app struct {

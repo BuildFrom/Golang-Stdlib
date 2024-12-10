@@ -1,9 +1,8 @@
-module github.com/shohinsan/nestly
+module github.com/BuildFrom/Golang-Stdlib
 
 go 1.23.2
 
 require (
-	github.com/ardanlabs/darwin/v3 v3.3.1
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
 	github.com/go-playground/validator/v10 v10.22.1

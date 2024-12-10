@@ -3,7 +3,7 @@ package healthapp
 import (
 	"net/http"
 
-	"github.com/shohinsan/nestly/internal/infrastructure/sqldb"
+	"github.com/BuildFrom/Golang-Stdlib/internal/infrastructure/sqldb"
 )
 
 func RegisterRoutes(mux *http.ServeMux, dbService sqldb.Service) {
